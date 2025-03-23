@@ -5,9 +5,6 @@ import cv2
 import pandas as pd
 
 
-import os
-import pandas as pd
-
 def recognize_attendence():
     # Create directories if they don't exist
     os.makedirs("StudentDetails", exist_ok=True)
