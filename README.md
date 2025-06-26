@@ -1,40 +1,64 @@
-# Smart Attendance System using Face Detection with Open CV
+# 🎯 Smart Attendance System using Face Detection with OpenCV  
+### 👨‍💻 Software Engineering Mini Project  
 
-### Software Engineering mini project 
+---
 
-## Libraries Used:
-○ Numpy - could be a library for Python, adding support for multi-dimensional arrays and
-matrices, in conjunction with an enormous assortment of high-level mathematical functions to
-operate on these arrays. \
-○ Pandas - is a fast, powerful, flexible, and easy to use open-source data analysis and
-manipulation tool, built on top of the Python programming language. \
-○ Haar Cascade - is a machine learning object detection algorithm used to identify objects in
-an image or video and based on the concept of features proposed by Paul Viola and Michael
-Jones in their paper "Rapid Object Detection using a Boosted Cascade of Simple Features" in
-2001. \
-○ Face_Recognition - Recognize and manipulate faces from Python or the command line
-with the world’s simplest face recognition library. \
-○ OpenCV - a library of programming functions primarily geared toward real-time
-computer vision.
+## 📚 Libraries Used:
 
-## Instructions to run:
-1. First download or clone the project
-2. Import the project to your favourit IDE
-3. Create a python enviroment
-4. Install all the packages
-5. Run the project using the command line or your IDE Run Button
+- **NumPy** – Powerful Python library for numerical computing, offering support for multi-dimensional arrays and a wide range of mathematical operations.  
+- **Pandas** – A fast, flexible, and expressive tool for data manipulation and analysis built on top of Python.  
+- **Haar Cascade Classifier** – A machine learning object detection algorithm used to identify faces in images and videos. Based on the work of Paul Viola and Michael Jones (2001).  
+- **face_recognition** – The world’s simplest library for face recognition in Python, allowing easy face detection and manipulation.  
+- **OpenCV** – A highly optimized open-source library for real-time computer vision and image processing.
 
-## Run:
-1. python -m venv env
-2. .\env\Scripts\activate
-3. Install below libraries:
-- pip install opencv-contrib-python
-- pip install numpy
-- pip install pandas
-- pip install Pillow
-- pip install pytest-shutil
-- pip install python-csv
-4. py main.py 
+---
 
+## 🚀 How to Run the Project:
 
+### 🔧 Prerequisites:
+1. Python 3.x installed
+2. A code editor or IDE (e.g., VS Code, PyCharm)
 
+---
+
+### 🛠️ Setup Instructions:
+1. Clone or download the project from this repository.
+2. Open the project in your preferred IDE.
+3. Create and activate a Python virtual environment:
+    ```bash
+    python -m venv venv
+    source venv/bin/activate  # On Windows use `venv\Scripts\activate`
+    ```
+4. Install all required libraries:
+    ```bash
+    pip install -r requirements.txt
+    ```
+
+---
+
+### ▶️ Run the Application:
+1. Open your terminal in the project directory.
+2. Install **Streamlit** (if not already installed):
+    ```bash
+    pip install streamlit
+    ```
+3. Launch the app:
+    ```bash
+    streamlit run app.py
+    ```
+    ✅ **This will automatically open a new tab in your default web browser where the application UI will start running.**
+
+---
+
+## 🧠 Project Highlights:
+- Real-time face detection using webcam
+- Automatic attendance marking based on face recognition
+- Easy-to-use and lightweight interface
+- Scalable to multiple users/classes
+
+---
+
+## 📌 Note:
+Ensure your webcam is enabled and working before running the application.
+
+---
